@@ -19,7 +19,7 @@ pipeline {
       }
     }
 	
-     stage(Construir Imagen Aplicación) {
+     stage('Construir Imagen Aplicación') {
 	steps{
 	 dir('proyecto'){
 	   script {
@@ -31,3 +31,4 @@ pipeline {
 
   }
 
+}
